@@ -1,0 +1,254 @@
+/* ------------------------------
+------------- RESET -------------
+--------------------------------- */
+
+
+/* ------------------------------
+------------- TYPE --------------
+--------------------------------- */
+
+html { -webkit-font-smoothing: antialiased; }
+
+p {
+	font-family: 'Noto Sans', Sans;
+	font-size: 28px;
+	color: #333333;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+h3 {
+	font-family: Brandon, Sans;
+	font-size: 60px;
+	color: grey;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin: 0px;
+}
+
+h4 {
+	font-family: Brandon, Sans;
+	font-size: 54px;
+	color: #4c4c4c;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin: 20px;
+}
+
+h6 {
+	font-family: 'Noto Sans', Sans;
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.bio { padding: 0 20px 80px 20px; }
+
+.description { color: #F25749; }
+
+.bye { padding: 0px; margin: 40px 0 10px 0; }
+
+p.feet-type {
+	font-size: 16px;
+	color: #F25749;
+	padding: 0px;
+}
+
+/* ------------------------------
+------------ CONTENT ------------
+--------------------------------- */
+
+/*	.work-btn { text-align: center; padding-top: 40px; }
+*/
+
+.content a { display: inline-block;  }
+
+.btn  { background-color: rgba(255,255,255,0.3);
+		  border: 1px solid #333333;
+		  display: block;
+		  color: #333333;
+		  font-family:'Noto Sans' sans-serif;
+		  font-size: 21px;
+		  font-weight: bold;
+		  max-width: 400px;
+		  padding: 10px  80px;
+		  text-decoration: none;
+		  margin-top: 30px;
+		  text-align: center;
+		  }
+  
+.btn:hover { background-color: #333333;	 color: #7F00FF; }
+
+.btn2  { background-color: #cccccc;
+		  display: block;
+		  color: #333333;
+		  font-family:'Noto Sans' sans-serif;
+		  font-size: 18px;
+
+		  max-width: 400px;
+		  padding: 10px  80px;
+		  text-decoration: none;
+		  margin-top: 30px;
+		  text-align: center;
+		  }
+		  
+.btn3  { background-color: #cccccc;
+		  display: block;
+		  color: #333333;
+		  font-family:'Noto Sans'  sans-serif;
+		  font-size: 38px;
+
+		  max-width: 900px;
+		  padding: 10px  80px;
+		  text-decoration: none;
+		  margin-top: 30px;
+		  text-align: center;
+		  }
+
+button  {
+  background-color: rgba(255,255,255,0.3);
+  border: 8px solid #333333;
+	cursor: pointer; 
+  color: #333333;
+  font-family:'Noto Sans' sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  max-width: 400px;
+  padding: 10px  20px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  }
+		 #pause { padding: 10px 20px; text-align: center; }
+	 
+		#play { background-color: rgba(127, 0, 255,0.6); padding: 10px 20px; text-align: center; }
+	
+button:hover { background-color: rgba(255,255,255,0.3); color: #FFFFFF; }
+
+section {
+	max-width: 100%;
+	padding: 20px 20px;
+	text-align: center;
+	display: block;	
+}
+
+.face {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.module {
+	background-color: #333333;
+}
+
+.module.alt {
+	background-color: #4D4D4D;
+}
+
+.other{
+	padding: 60px 20px;
+	background-color: #4D4D4D;
+}
+
+.det {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+figure {
+	width: 80%; 
+	max-width: 426px;
+	display: inline-block;
+}
+
+figure img {
+	width: 100%;
+	display: inline-block;
+}
+
+.icon {
+	margin: 30px;
+	
+}
+
+.footer {
+	padding: 10px 10px;
+	background-color: #333333;
+	text-align: center;
+	bottom: 0px;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+
+/* ------------------------------
+--------- TEXT COLOR MORPH ---------
+--------------------------------- */
+
+.Rainbojangles {
+    color: violet;
+    font-size: 1em;
+    font-family: 'Brandon', Candara, Consolas, Calibri, sans-serif !important;
+    text-shadow: 4px 3px 6px #000000;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, .2);
+    display: inline;
+    padding-right: 10px;
+
+    animation-name: rainbowGlow;
+    
+    animation-duration: 50s;
+    animation-delay: 2s;
+    -moz-animation: rainbowGlow 50s 1 linear;
+    -o-animation: rainbowGlow  50s 1 linear;
+    -webkit-animation: rainbowGlow 50s 1 linear;
+    animation: rainbowGlow 50s 1 linear;
+    
+    animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+-o-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rainbowGlow {
+from {
+         color: #7f00ff;  /* purple */
+     }
+25% {
+         color: #663399;  /* dk purple */
+     }
+50% {
+        color: indigo; 
+    }
+
+75% {
+        color: black;
+    }
+
+to {
+       color: #7f00ff; /* purple */
+   }
+}
+
+
+
+/* ------------------------------
+--------- MEDIA QUERIES ---------
+--------------------------------- */
+
+@media (min-width: 700px) { 
+    .content { width: 700px; margin: 0 auto; } 
+}
+
+
